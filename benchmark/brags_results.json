@@ -1,0 +1,222 @@
+{
+    "method": "BRAGSGridSearch",
+    "best_params": {
+        "activation": "tanh",
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+            128
+        ]
+    },
+    "best_score": 0.9504730105731776,
+    "total_time": 7.784,
+    "all_trials": [
+        {
+            "params": {
+                "activation": "relu",
+                "alpha": 0.0001,
+                "hidden_layer_sizes": [
+                    64
+                ]
+            },
+            "mean_score": 0.9365609348914857,
+            "scores_per_fold": [
+                0.9449081803005008,
+                0.9449081803005008,
+                0.9198664440734557
+            ],
+            "train_time": 0.5765528678894043,
+            "gpu_pct": 6
+        },
+        {
+            "params": {
+                "activation": "relu",
+                "alpha": 0.0001,
+                "hidden_layer_sizes": [
+                    128
+                ]
+            },
+            "mean_score": 0.9393433500278242,
+            "scores_per_fold": [
+                0.9449081803005008,
+                0.9382303839732888,
+                0.9348914858096828
+            ],
+            "train_time": 0.6032617092132568,
+            "gpu_pct": 6
+        },
+        {
+            "params": {
+                "activation": "relu",
+                "alpha": 0.0001,
+                "hidden_layer_sizes": [
+                    64,
+                    64
+                ]
+            },
+            "mean_score": 0.9465776293823037,
+            "scores_per_fold": [
+                0.9532554257095158,
+                0.9532554257095158,
+                0.9332220367278798
+            ],
+            "train_time": 0.6539506912231445,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "relu",
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    64
+                ]
+            },
+            "mean_score": 0.9360044518642181,
+            "scores_per_fold": [
+                0.9432387312186978,
+                0.9432387312186978,
+                0.9215358931552587
+            ],
+            "train_time": 0.5544919967651367,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "relu",
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    128
+                ]
+            },
+            "mean_score": 0.9404563160823596,
+            "scores_per_fold": [
+                0.9465776293823038,
+                0.9432387312186978,
+                0.9315525876460768
+            ],
+            "train_time": 0.551602840423584,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "relu",
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    64,
+                    64
+                ]
+            },
+            "mean_score": 0.9471341124095716,
+            "scores_per_fold": [
+                0.9515859766277128,
+                0.9515859766277128,
+                0.9382303839732888
+            ],
+            "train_time": 0.6483719348907471,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "tanh",
+                "alpha": 0.0001,
+                "hidden_layer_sizes": [
+                    64
+                ]
+            },
+            "mean_score": 0.9426822481914301,
+            "scores_per_fold": [
+                0.9616026711185309,
+                0.9565943238731218,
+                0.9098497495826378
+            ],
+            "train_time": 0.7056467533111572,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "tanh",
+                "alpha": 0.0001,
+                "hidden_layer_sizes": [
+                    128
+                ]
+            },
+            "mean_score": 0.9504730105731776,
+            "scores_per_fold": [
+                0.9565943238731218,
+                0.9582637729549248,
+                0.9365609348914858
+            ],
+            "train_time": 0.6744058132171631,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "tanh",
+                "alpha": 0.0001,
+                "hidden_layer_sizes": [
+                    64,
+                    64
+                ]
+            },
+            "mean_score": 0.9382303839732887,
+            "scores_per_fold": [
+                0.9549248747913188,
+                0.9449081803005008,
+                0.9148580968280468
+            ],
+            "train_time": 0.7267477512359619,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "tanh",
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    64
+                ]
+            },
+            "mean_score": 0.9426822481914301,
+            "scores_per_fold": [
+                0.9616026711185309,
+                0.9565943238731218,
+                0.9098497495826378
+            ],
+            "train_time": 0.6870002746582031,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "tanh",
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    128
+                ]
+            },
+            "mean_score": 0.9482470784641069,
+            "scores_per_fold": [
+                0.9532554257095158,
+                0.9565943238731218,
+                0.9348914858096828
+            ],
+            "train_time": 0.667414665222168,
+            "gpu_pct": 0
+        },
+        {
+            "params": {
+                "activation": "tanh",
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    64,
+                    64
+                ]
+            },
+            "mean_score": 0.9393433500278241,
+            "scores_per_fold": [
+                0.9565943238731218,
+                0.9449081803005008,
+                0.9165275459098498
+            ],
+            "train_time": 0.7305326461791992,
+            "gpu_pct": 0
+        }
+    ]
+}

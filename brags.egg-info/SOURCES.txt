@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+brags/__init__.py
+brags/grid.py
+brags/utils.py
+brags/version.py
+brags.egg-info/PKG-INFO
+brags.egg-info/SOURCES.txt
+brags.egg-info/dependency_links.txt
+brags.egg-info/top_level.txt
+examples/mnist_demo.py
+tests/test_grid.py
