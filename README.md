@@ -78,6 +78,7 @@ For now, clone the repo:
 ```
 git clone https://github.com/avinashh-ai/brags-hpo.git
 cd brags-hpo
+pip install -e .
 ```
 
 ---
